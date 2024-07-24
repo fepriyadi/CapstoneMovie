@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "Movie",
             dependencies: [
-              "CapstoneCore",
+                .product(name: "Core", package: "CapstoneCore"),
               "Alamofire"
             ]),
         .testTarget(
