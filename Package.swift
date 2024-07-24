@@ -14,8 +14,7 @@ let package = Package(
     ],
     dependencies: [
       // Dependencies declare other packages that this package depends on.
-      .package(url: "https://github.com/fepriyadi/CapstoneCore.git", branch: "main"),
-      .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.2.0"))
+      .package(url: "https://github.com/fepriyadi/CapstoneCore.git", branch: "main")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -23,8 +22,7 @@ let package = Package(
         .target(
             name: "Movie",
             dependencies: [
-                .product(name: "Core", package: "CapstoneCore"),
-              "Alamofire"
+                .product(name: "Core", package: "CapstoneCore")
             ]),
         .testTarget(
             name: "MovieTests",

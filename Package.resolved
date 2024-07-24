@@ -1,15 +1,6 @@
 {
-  "originHash" : "13cd6e324259fa0b51f17b98d7362ff781e7f9b13ea1804fd94caa38fa1f1172",
+  "originHash" : "cf98dd37ddaebd2665a00bce46f7030a8f8a2318b055f4c813e53e6136e39f7d",
   "pins" : [
-    {
-      "identity" : "alamofire",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Alamofire/Alamofire.git",
-      "state" : {
-        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
-        "version" : "5.9.1"
-      }
-    },
     {
       "identity" : "capstonecore",
       "kind" : "remoteSourceControl",
