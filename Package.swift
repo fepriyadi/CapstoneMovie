@@ -23,7 +23,6 @@ let package = Package(
         .target(
             name: "Movie",
             dependencies: [
-              .product(name: "RealmSwift", package: "realm-swift"),
               "Core",
               "Alamofire"
             ]),
