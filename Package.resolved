@@ -1,0 +1,42 @@
+{
+  "originHash" : "13cd6e324259fa0b51f17b98d7362ff781e7f9b13ea1804fd94caa38fa1f1172",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "capstonecore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fepriyadi/CapstoneCore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5132b4bc9f044b6583900dbde27676733067e95e"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "f889f79a2301208fd9d322d07abfc883b8f2046c",
+        "version" : "14.10.2"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "2fd2e3f121920bb23e3fbb8e5c61c40089c5b4aa"
+      }
+    }
+  ],
+  "version" : 3
+}
